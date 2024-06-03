@@ -1,4 +1,5 @@
 
+// Practice Exercise: sayHello()
 function sayHello(name){
     return `Hello ${name}`
 }
@@ -110,6 +111,8 @@ function isAdult(age){
         }
     }
     console.log(basicCalculator(4, 4, 'divide'))
+
+    // Exercise 10: calculateGrade()
 
     function calculateGrade(numberscore){
         if(numberscore >= 90){
