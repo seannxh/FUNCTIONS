@@ -3,6 +3,7 @@
 function sayHello(name){
     return `Hello ${name}`
 }
+// returns Hello Sean
 console.log(sayHello('Sean'))
 
 //Exercise 2: isAdult()  
@@ -15,6 +16,7 @@ function isAdult(age){
     console.log('Minor')
     }
     }
+    //Returns Adult
     isAdult(20);
     
       
@@ -38,6 +40,7 @@ function isAdult(age){
     console.log('Not a vowel')
     }
     }
+    //Returns true
     console.log(isCharAVowel('a'))
 
     //Exercise 4: GenerateEmail()
@@ -45,6 +48,7 @@ function isAdult(age){
     const generateEmail = (name, domain) => {
         console.log(`${name}${domain}`)
     }
+    //Returns nohsean6@gmail.com
     generateEmail ('nohsean6', '@gmail.com')
 
     function greetUser(greetName, timeOfDay){
@@ -58,7 +62,7 @@ function isAdult(age){
             console.log(`Hello, ${greetName}`)
         } 
     }
-
+    //Returns Good Morning, Sean!
     greetUser('Sean', 'Morning')
 
 // Exercise 6: maxOfThree
@@ -66,7 +70,7 @@ function isAdult(age){
     function maxOfThree(num1, num2, num3) {
         return Math.max(num1, num2, num3)
     }
-
+    //Returns 59
     console.log(maxOfThree('2', '5', '59'))
       
 // Exercise 7: calculateTip()
@@ -75,6 +79,7 @@ function isAdult(age){
         let tipAmount = billAmount * (tipPercentage / 100)
         return tipAmount
     }
+    //Returns 9
     console.log(calculateTip('50','18'))
 
 
@@ -92,6 +97,7 @@ function isAdult(age){
  }
  return convert;
 }
+//Returns -16.11111111111111
  console.log(convertTemperature(3, 'F'))
 
 
@@ -110,6 +116,7 @@ function isAdult(age){
             return 'Please make sure you typed in the correct input and operator'
         }
     }
+    //Returns 1
     console.log(basicCalculator(4, 4, 'divide'))
 
     // Exercise 10: calculateGrade()
@@ -126,6 +133,7 @@ function isAdult(age){
         }else (numberscore < 60)
             return 'You have unfortunately have failed, Study More! You got this!'
         }
+//Returns You got a B!, Great Job! Always room for improvement
 console.log(calculateGrade(83))
 
 //Exercise 11: createUsername()
@@ -141,6 +149,7 @@ function createUsername(first, last){
     }
     return username;
 }
+//Returns SeaNoh7
 console.log(createUsername('Sean', 'Noh'))
 
 // Exercise 12: numArgs()
@@ -148,4 +157,5 @@ console.log(createUsername('Sean', 'Noh'))
     function numArgs(){
         return arguments.length
     }
+//Returns 9
     console.log(numArgs(1,2,3,4,5,6,7,8,9))
